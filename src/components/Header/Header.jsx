@@ -7,6 +7,7 @@ const Header = () => {
             <h1>Navbar</h1>
             <nav className="flex gap-5 text-green-600 font-bold bg-orange-300  shadow-md">
                 <Link  to='/'>Home</Link>
+                <Link to='/posts'>Posts</Link>
                 <Link to='/users'>Users</Link>
                 <Link to='/about'>About</Link>
                 <Link to='/contact'>Contact</Link>
